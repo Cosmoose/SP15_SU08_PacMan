@@ -18,7 +18,7 @@ public class ghostMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
-		direction = Vector3.forward;
+		direction = Vector3.left;
 		moveSpeed = 5;
 		spotted = false;
 		hunted = false;
