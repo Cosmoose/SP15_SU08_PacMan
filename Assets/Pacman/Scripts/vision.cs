@@ -3,7 +3,7 @@ using System.Collections;
 
 public class vision : MonoBehaviour {
 	
-	public ghostMovement ghostMovement;
+	public GhostMovementNav ghostMovement;
 	
 	void OnTriggerEnter(Collider other)
 	{
