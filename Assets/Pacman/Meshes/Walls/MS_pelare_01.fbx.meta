@@ -1,23 +1,15 @@
 fileFormatVersion: 2
-guid: 4c25362e485303f4faf55a55f4afa137
-timeCreated: 1446809157
+guid: a915a3fe8893b8446b9d53cd3f6cbd2a
+timeCreated: 1448136122
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: polySurface60
-    100002: //RootNode
-    100004: polySurface1576
-    400000: polySurface60
-    400002: //RootNode
-    400004: polySurface1576
-    2300000: polySurface60
-    2300002: polySurface1576
-    3300000: polySurface60
-    3300002: polySurface1576
-    4300000: polySurface60
-    4300002: polySurface1576
-    9500000: //RootNode
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: "layout_duschrum:MS_basicv\xE4ggar_kalle1:pCube4"
   materials:
     importMaterials: 1
     materialName: 0
@@ -76,7 +68,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

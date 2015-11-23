@@ -18,7 +18,7 @@ public class Teleport : MonoBehaviour {
 				if (tp.code==code && tp != this){
 					tp.disableTimer=2;
 					Vector3 position=tp.gameObject.transform.position; 
-					position.y= 272.08f;
+					position.y= -55.85f;
 					collider.gameObject.transform.position=position;
 				}
 			}
