@@ -2,36 +2,38 @@
 using System.Collections;
 
 public class vision : MonoBehaviour {
-	
-	public GhostMovementNav ghostMovement;
-	
+
+	public NPCmovement objectMovement;
+
+
 	void OnTriggerEnter(Collider other)
 	{
 		
 		if (other.gameObject.name == "pacman")
 		{
 			Debug.Log("enters");
-			ghostMovement.spotted = true;
+
 
 			if (other.gameObject.tag == "hunting")
 			{
-				ghostMovement.hunted = true;
+				objectMovement.Invoke ("RepeatRun", 0);
 			}
+			else
+			{
+				objectMovement.Invoke ("RepeatHunt",0);
+			}
+
 		} 
-		
+
+
 	}
 	void OnTriggerExit(Collider other)
 	{
 		if (other.gameObject.name == "pacman")
 		{
 			Debug.Log("exits");
-			ghostMovement.spotted = false;
-
-			if (other.gameObject.tag == "hunting")
-			{
-				ghostMovement.hunted = false;
-			}
+			objectMovement.Invoke ("ResumeStatus", 0);
 		}
-		
+				
 	}
 }

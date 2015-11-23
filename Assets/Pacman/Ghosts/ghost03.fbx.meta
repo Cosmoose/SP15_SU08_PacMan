@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 1b8d5c08755ea5543ba4264cfedbf3dc
+timeCreated: 1448015611
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Core_Ctrl
+    100002: Core_jt
+    100004: //RootNode
+    100006: "H_armb\xE4ge_jt"
+    100008: jaw_jt
+    100010: l_middlefinger_1_jt
+    100012: l_middlefinger_2_jt
+    100014: l_middlefinger_3_jt
+    100016: l_pinky_1_jt
+    100018: l_pinky_2_jt
+    100020: l_pinky_3_jt
+    100022: l_pointer_1_jt
+    100024: l_pointer_2_jt
+    100026: l_pointer_3_jt
+    100028: l_shoulder_jt
+    100030: l_wrist_jt
+    100032: polySurface70
+    100034: r_elbow_jt
+    100036: r_midlefinger_1_jt
+    100038: r_midlefinger_2_jt
+    100040: r_midlefinger_3_jt
+    100042: r_pinky_1_jt
+    100044: r_pinky_2_jt
+    100046: r_pinky_3_jt
+    100048: r_pointer_1_jt
+    100050: r_pointer_2_jt
+    100052: r_pointer_3_jt
+    100054: r_shoulder_jt1
+    100056: r_thumb_1_jt
+    100058: r_thumb_1_jt 1
+    100060: r_thumb_2_jt
+    100062: r_thumb_2_jt 1
+    100064: r_thumb_3_jt
+    100066: r_thumb_3_jt 1
+    100068: r_wrist_jt
+    100070: Ribcage_jt
+    100072: skull_jt
+    100074: tail_jt
+    400000: Core_Ctrl
+    400002: Core_jt
+    400004: //RootNode
+    400006: "H_armb\xE4ge_jt"
+    400008: jaw_jt
+    400010: l_middlefinger_1_jt
+    400012: l_middlefinger_2_jt
+    400014: l_middlefinger_3_jt
+    400016: l_pinky_1_jt
+    400018: l_pinky_2_jt
+    400020: l_pinky_3_jt
+    400022: l_pointer_1_jt
+    400024: l_pointer_2_jt
+    400026: l_pointer_3_jt
+    400028: l_shoulder_jt
+    400030: l_wrist_jt
+    400032: polySurface70
+    400034: r_elbow_jt
+    400036: r_midlefinger_1_jt
+    400038: r_midlefinger_2_jt
+    400040: r_midlefinger_3_jt
+    400042: r_pinky_1_jt
+    400044: r_pinky_2_jt
+    400046: r_pinky_3_jt
+    400048: r_pointer_1_jt
+    400050: r_pointer_2_jt
+    400052: r_pointer_3_jt
+    400054: r_shoulder_jt1
+    400056: r_thumb_1_jt
+    400058: r_thumb_1_jt 1
+    400060: r_thumb_2_jt
+    400062: r_thumb_2_jt 1
+    400064: r_thumb_3_jt
+    400066: r_thumb_3_jt 1
+    400068: r_wrist_jt
+    400070: Ribcage_jt
+    400072: skull_jt
+    400074: tail_jt
+    4300000: polySurface70
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface70
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Core_Ctrl
+        weight: 1
+      - path: Core_jt
+        weight: 1
+      - path: Core_jt/l_shoulder_jt
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_middlefinger_1_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_middlefinger_1_jt/l_middlefinger_2_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_middlefinger_1_jt/l_middlefinger_2_jt/l_middlefinger_3_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_pinky_1_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_pinky_1_jt/l_pinky_2_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_pinky_1_jt/l_pinky_2_jt/l_pinky_3_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_pointer_1_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_pointer_1_jt/l_pointer_2_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/l_pointer_1_jt/l_pointer_2_jt/l_pointer_3_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/r_thumb_1_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/r_thumb_1_jt/r_thumb_2_jt"
+        weight: 1
+      - path: "Core_jt/l_shoulder_jt/H_armb\xE4ge_jt/l_wrist_jt/r_thumb_1_jt/r_thumb_2_jt/r_thumb_3_jt"
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_midlefinger_1_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_midlefinger_1_jt/r_midlefinger_2_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_midlefinger_1_jt/r_midlefinger_2_jt/r_midlefinger_3_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_pinky_1_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_pinky_1_jt/r_pinky_2_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_pinky_1_jt/r_pinky_2_jt/r_pinky_3_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_pointer_1_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_pointer_1_jt/r_pointer_2_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_pointer_1_jt/r_pointer_2_jt/r_pointer_3_jt
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_thumb_1_jt 1
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_thumb_1_jt 1/r_thumb_2_jt
+          1
+        weight: 1
+      - path: Core_jt/r_shoulder_jt1/r_elbow_jt/r_wrist_jt/r_thumb_1_jt 1/r_thumb_2_jt
+          1/r_thumb_3_jt 1
+        weight: 1
+      - path: Core_jt/Ribcage_jt
+        weight: 1
+      - path: Core_jt/Ribcage_jt/tail_jt
+        weight: 1
+      - path: Core_jt/skull_jt
+        weight: 1
+      - path: Core_jt/skull_jt/jaw_jt
+        weight: 1
+      - path: polySurface70
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
