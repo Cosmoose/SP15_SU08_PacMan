@@ -18,7 +18,8 @@ public class NPCmovement : MonoBehaviour {
 	{
 		
 		NavMeshAgent agent = GetComponent<NavMeshAgent> ();
-		agent.destination = pacman.transform.position;
+		agent.SetDestination(pacman.transform.position);
+        Debug.Log(agent.pathPending);
 
 	}
 
@@ -36,7 +37,7 @@ public class NPCmovement : MonoBehaviour {
 	}
 
 
-	public int patrolIndex ()
+	public int patrolIndex () 
 	{
 
 		index += 1;
@@ -49,10 +50,9 @@ public class NPCmovement : MonoBehaviour {
 		return index;
 	}
 	
-	void Patrol () // Gå runt på random
+	void Patrol () // patrullera bestämda punkter
 	{
 		index = patrolIndex ();
-		Debug.Log (index);
 
 		currentDestination = ghostPoints [index];
 

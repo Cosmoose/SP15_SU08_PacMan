@@ -3,15 +3,17 @@ using System.Collections;
 
 public class SentinelVision : MonoBehaviour {
 
-	public NPCmovement objectMovement;
+	public SentinelMovement objectMovement;
 	public GameObject Sentinel;
 
 
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject == Sentinel)
+		if (other.gameObject.tag == "sentinel")
 		{
-			objectMovement = Sentinel.gameObject.GetComponent<NPCmovement>();
+          
+			objectMovement = Sentinel.gameObject.GetComponent<SentinelMovement>();
+
 		}
 		
 		
@@ -21,18 +23,17 @@ public class SentinelVision : MonoBehaviour {
 	{
 		if (other.gameObject.name == "pacman")
 		{
-			Debug.Log("enters");
-			
-			
-			if (other.gameObject.tag == "hunting")
-			{
-				objectMovement.Invoke ("RepeatRun", 0);
-			}
-			else
-			{
-				objectMovement.Invoke ("RepeatHunt",0);
-			}
-			
+			if (objectMovement != null)
+            {
+                if (other.gameObject.tag == "hunting")
+                {
+                    objectMovement.Invoke("RepeatHunt", 0);
+                }
+                else
+                {
+                    objectMovement.Invoke("RepeatRun", 0);
+                }
+            }
 		} 
 	}
 	void OnTriggerExit(Collider other)
@@ -41,9 +42,8 @@ public class SentinelVision : MonoBehaviour {
 		{
 			objectMovement = null;
 		}
-		if (other.gameObject.name == "pacman")
+		if (other.gameObject.name == "pacman" && objectMovement != null)
 		{
-			Debug.Log("exits");
 			objectMovement.Invoke ("ResumeStatus", 0);
 		}
 		

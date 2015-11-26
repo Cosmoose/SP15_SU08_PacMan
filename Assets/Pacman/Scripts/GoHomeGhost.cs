@@ -13,20 +13,21 @@ public class GoHomeGhost : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		home = GameObject.Find ("home");
+		home = GameObject.Find ("DeadGhostHome");
 
 		NavMeshAgent ghost = GetComponent<NavMeshAgent> ();
 		ghost.destination = home.transform.position;
+        Debug.Log(home.transform.position);
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if (transform.position == home.transform.position)
+		if (gameObject.transform.position.x == home.transform.position.x && gameObject.transform.position.y == gameObject.transform.position.y)
 		{
-			Destroy(this.gameObject,0f);
-			Instantiate(ghost, new Vector3(home.transform.position.x, home.transform.position.y + 5f, home.transform.position.z), Quaternion.identity);
+			Destroy(gameObject,0f);
+			Instantiate(ghost, home.transform.position, Quaternion.identity);
 		}
 
 	

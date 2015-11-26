@@ -20,11 +20,12 @@ public class SpawnFruit : NPCmovement {
 
 	void SpawnIt ()
 	{
-
+        Debug.Log("fucking shitcuntasshole");
 		index = Random.Range (0, ghostPoints.Length);
 
 
 		fruitSpawn = ghostPoints [index];
+        Debug.Log(index);
 
 
 		Instantiate (fruit, fruitSpawn.transform.position, Quaternion.identity);

@@ -9,33 +9,32 @@ public class SentinelMovement : NPCmovement {
 		
 		ghostPoints = GameObject.FindGameObjectsWithTag("corridorPoint");
 		pacman = GameObject.Find ("pacman");
-		InvokeRepeating ("Patrol", 0, 9);	
+		InvokeRepeating ("Patrol", 0, 15);	
 		agent = gameObject.GetComponent <NavMeshAgent> ();
 	}
 
 	
 	void RepeatHunt ()
 	{
-		Debug.Log ("what");
+		Debug.Log ("what1");
 		CancelInvoke ();
 		Invoke ("HuntPacman", 0);
-		agent.speed = 10;
+		agent.speed = 120;
 	}
 
-	void RepeatRun () // sentineln har ingen fruktan och jagar alltid pacman
-	{
-		Debug.Log ("what");
-		CancelInvoke ();
-		Invoke ("HuntPacman", 0);
-		agent.speed = 10;
-	}
+	void RepeatRun ()
+    {
+        CancelInvoke();
+        Invoke("HuntPacman", 0);
+        agent.speed = 120;
+    }
 
 	void ResumeStatus ()
 	{
-		Debug.Log ("what");
+		Debug.Log ("what3");
 		CancelInvoke ();
-		InvokeRepeating ("Patrol", 0, 9);
-		agent.speed = 3.5f;
+		InvokeRepeating ("Patrol", 0, 15);
+		agent.speed = 60;
 	}
 
 

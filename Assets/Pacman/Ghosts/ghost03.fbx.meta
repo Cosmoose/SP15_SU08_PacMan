@@ -82,7 +82,7 @@ ModelImporter:
     400072: skull_jt
     400074: tail_jt
     4300000: polySurface70
-    7400000: Take 001
+    7400000: Run
     9500000: //RootNode
     13700000: polySurface70
   materials:
@@ -106,7 +106,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Run
       takeName: Take 001
       firstFrame: 1
       lastFrame: 60

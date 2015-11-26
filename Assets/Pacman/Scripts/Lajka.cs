@@ -20,7 +20,7 @@ public class Lajka : NPCmovement {
 	void RepeatRun ()
 	{
 		CancelInvoke ();
-		InvokeRepeating ("RunFromPacman", 0, 1);
+		InvokeRepeating ("RunFromPacman", 0, 4);
 	}
 
 	void ResumeStatus ()

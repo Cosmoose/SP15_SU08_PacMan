@@ -4,7 +4,13 @@ using System.Collections;
 public class vision : MonoBehaviour {
 
 	public NPCmovement objectMovement;
+    public bool sees ;
 
+
+    void Start ()
+    {
+        sees = false;
+    }
 
 	void OnTriggerEnter(Collider other)
 	{
@@ -13,7 +19,7 @@ public class vision : MonoBehaviour {
 		{
 			Debug.Log("enters");
 
-
+            sees = true;
 			if (other.gameObject.tag == "hunting")
 			{
 				objectMovement.Invoke ("RepeatRun", 0);
@@ -31,6 +37,7 @@ public class vision : MonoBehaviour {
 	{
 		if (other.gameObject.name == "pacman")
 		{
+            sees = false;
 			Debug.Log("exits");
 			objectMovement.Invoke ("ResumeStatus", 0);
 		}
